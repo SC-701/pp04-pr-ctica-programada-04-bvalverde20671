@@ -1,15 +1,14 @@
 name: Deploy Seguridad API to Azure
 
 env:
-  AZURE_WEBAPP_NAME:         APISeguridadBryan
-  AZURE_WEBAPP_PACKAGE_PATH: './Seguridad/Seguridad.API/API'
-  DOTNET_VERSION:            '8.0'
+  AZURE_WEBAPP_NAME: APISeguridadBryan
+  DOTNET_VERSION: '8.0'
 
 on:
   push:
     branches: [ "main" ]
     paths:
-      - 'Seguridad/Seguridad.API/API/**'
+      - 'Seguridad/Seguridad.API/**'
   workflow_dispatch:
 
 permissions:
@@ -41,7 +40,7 @@ jobs:
 
       - name: Restaurar dependencias
         run: |
-          cd "Seguridad/Seguridad.API/API"
+          cd "Seguridad/Seguridad.API"
           dotnet restore "Abstracciones/Abstracciones.csproj"
           dotnet restore "DA/DA.csproj"
           dotnet restore "Flujo/Flujo.csproj"
@@ -56,15 +55,19 @@ jobs:
 
       - name: Publicar (dotnet publish)
         run: |
-          cd "Seguridad/Seguridad.API/API"
-          dotnet publish "API/API.csproj" \
+          dotnet publish "Seguridad/Seguridad.API/API/API.csproj" \
             --configuration Release \
             --no-build \
-            --output ./publish
+            --output "${{ github.workspace }}/publish"
+
+      - name: Verificar carpeta publish
+        run: |
+          ls -la "${{ github.workspace }}"
+          ls -la "${{ github.workspace }}/publish"
 
       - name: Deploy a Azure Web App
         uses: azure/webapps-deploy@v3
         with:
-          app-name:        ${{ env.AZURE_WEBAPP_NAME }}
+          app-name: ${{ env.AZURE_WEBAPP_NAME }}
           publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE_SEGURIDAD }}
-          package:         './Seguridad/Seguridad.API/API/publish'
+          package: "${{ github.workspace }}/publish"
