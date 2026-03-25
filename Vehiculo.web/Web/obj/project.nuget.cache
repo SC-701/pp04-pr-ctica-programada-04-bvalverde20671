@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "jIV3Z/6ojkY=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\bryan\\source\\repos\\SC-701\\pp03-pr-ctica-programada-03-bvalverde20671\\Vehiculo.web\\Web\\Web.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\bryan\\.nuget\\packages\\microsoft.extensions.configuration\\10.0.5\\microsoft.extensions.configuration.10.0.5.nupkg.sha512",
+    "C:\\Users\\bryan\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\10.0.5\\microsoft.extensions.configuration.abstractions.10.0.5.nupkg.sha512",
+    "C:\\Users\\bryan\\.nuget\\packages\\microsoft.extensions.configuration.binder\\10.0.5\\microsoft.extensions.configuration.binder.10.0.5.nupkg.sha512",
+    "C:\\Users\\bryan\\.nuget\\packages\\microsoft.extensions.primitives\\10.0.5\\microsoft.extensions.primitives.10.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}

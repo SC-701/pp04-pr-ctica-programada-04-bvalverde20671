@@ -1,0 +1,15 @@
+C:\Users\bryan\Downloads\Vehiculo.Web\Reglas\bin\Debug\net8.0\Reglas.deps.json
+C:\Users\bryan\Downloads\Vehiculo.Web\Reglas\bin\Debug\net8.0\Reglas.dll
+C:\Users\bryan\Downloads\Vehiculo.Web\Reglas\bin\Debug\net8.0\Reglas.pdb
+C:\Users\bryan\Downloads\Vehiculo.Web\Reglas\bin\Debug\net8.0\Abstracciones.dll
+C:\Users\bryan\Downloads\Vehiculo.Web\Reglas\bin\Debug\net8.0\Abstracciones.pdb
+C:\Users\bryan\Downloads\Vehiculo.Web\Reglas\obj\Debug\net8.0\Reglas.csproj.AssemblyReference.cache
+C:\Users\bryan\Downloads\Vehiculo.Web\Reglas\obj\Debug\net8.0\Reglas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bryan\Downloads\Vehiculo.Web\Reglas\obj\Debug\net8.0\Reglas.AssemblyInfoInputs.cache
+C:\Users\bryan\Downloads\Vehiculo.Web\Reglas\obj\Debug\net8.0\Reglas.AssemblyInfo.cs
+C:\Users\bryan\Downloads\Vehiculo.Web\Reglas\obj\Debug\net8.0\Reglas.csproj.CoreCompileInputs.cache
+C:\Users\bryan\Downloads\Vehiculo.Web\Reglas\obj\Debug\net8.0\Reglas.csproj.Up2Date
+C:\Users\bryan\Downloads\Vehiculo.Web\Reglas\obj\Debug\net8.0\Reglas.dll
+C:\Users\bryan\Downloads\Vehiculo.Web\Reglas\obj\Debug\net8.0\refint\Reglas.dll
+C:\Users\bryan\Downloads\Vehiculo.Web\Reglas\obj\Debug\net8.0\Reglas.pdb
+C:\Users\bryan\Downloads\Vehiculo.Web\Reglas\obj\Debug\net8.0\ref\Reglas.dll
