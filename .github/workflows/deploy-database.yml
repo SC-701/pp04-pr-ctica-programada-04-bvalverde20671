@@ -53,6 +53,9 @@ jobs:
       - name: Restore NuGet packages
         run: nuget restore "Seguridad/Seguridad.API/Seguridad.sln"
 
+      - name: Agregar paquetes source privado
+        run: nuget sources add -name "Paquetes" -source "https://nuget.pkg.github.com/SC-701/index.json"
+
       - name: Build Database Project
         run: |
           msbuild "Seguridad/Seguridad.API/BD/BD.sqlproj" /p:Configuration=Release /p:Platform="Any CPU" /p:OutputPath="./bin/Release/"
