@@ -1,16 +1,6 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\Configuración local (.vs)",
-    "\\Vehiculo.API",
-    "\\Vehiculo.API\\Abstracciones",
-    "\\Vehiculo.API\\API",
-    "\\Vehiculo.API\\BD",
-    "\\Vehiculo.API\\DA",
-    "\\Vehiculo.API\\Flujo",
-    "\\Vehiculo.API\\Reglas",
-    "\\Vehiculo.API\\Servicios"
+    ""
   ],
-  "SelectedNode": "\\Configuración global (C:\\Users\\bryan\\AppData\\Local\\Microsoft\\VisualStudio\\17.0_69d3dbfe\\OpenFolder)\\VSWorkspaceSettings.json",
   "PreviewInSolutionExplorer": false
 }
